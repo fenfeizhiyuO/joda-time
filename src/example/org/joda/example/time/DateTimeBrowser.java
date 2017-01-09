@@ -126,12 +126,14 @@ public class DateTimeBrowser extends JFrame {
          * -Also, I'm not really a GUI guy, so forgive any
          * transgressions.
          *
-         */
+         
             if ( args.length < 1 ) {
                 System.err.println("File name is required!");
                 usage();
                 System.exit(1);
             }
+		*/
+    	args=new String[]{"D:/appData/eclipseData/git/temp0/jodaTime/joda/src/example/org/joda/example/time/DateTimeFile.dat"};
         /*
          * Instantiate a DateTimeBrowser and invoke it's go method,
          * passing the input argument list.

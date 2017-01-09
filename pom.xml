@@ -510,7 +510,11 @@
             <artifactId>velocity</artifactId>
             <version>1.7</version>
           </dependency>
+          
+          
+        
         </dependencies>
+        
       </plugin>
       <plugin><!-- invoke with mvn site-deploy -->
         <groupId>com.github.github</groupId>
